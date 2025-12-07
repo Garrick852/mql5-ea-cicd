@@ -1,0 +1,100 @@
+# Build artifacts
+*.ex5
+*.ex4
+*.dll
+*.so
+*.o
+*.obj
+*.exe
+
+# MetaTrader 5 specific directories
+MQL5/Indicators/
+MQL5/Experts/
+MQL5/Scripts/
+MQL5/Libraries/
+MQL5/Files/
+MQL5/Logs/
+MQL5/Reports/
+MQL5/Tester/
+history/
+symbols/
+profiles/
+terminal.ini
+terminal64.ini
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.codeproject
+*.csproj
+*.vcproj
+
+# Build output directories
+bin/
+obj/
+out/
+build/
+dist/
+release/
+debug/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Node modules (if using Node for tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# CI/CD related
+.github/workflows/logs/
+
+# Backup files
+*.backup
+*.backup.*
+*.original
+
+# Lock files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
